@@ -1,0 +1,19 @@
+[package]
+name = "floor_contract"
+description = "A cargo-generate template for Rust + Sway integration testing."
+version = "0.1.0"
+edition = "2021"
+authors = ["Felix | PEPA <felix@pepamarket.com>"]
+license = "Apache-2.0"
+
+[dev-dependencies]
+fuels = { version = "0.35", features = ["fuel-core-lib"] }
+tokio = { version = "1.12", features = ["rt", "macros"] }
+rand = "0.8.5"
+chrono="0.4.24"
+tai64="4.0.0"
+
+[[test]]
+harness = true
+name = "integration_tests"
+path = "tests/harness.rs"

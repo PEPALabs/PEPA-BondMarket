@@ -1,0 +1,9 @@
+[project]
+authors = ["Jenesaispas"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "floor_contract"
+
+[dependencies]
+floor_abi = {path = "../floor_abi"}
+vendor_abi = { path = "../vendor_abi" }
