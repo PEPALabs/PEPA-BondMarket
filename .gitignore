@@ -1,1 +1,29 @@
-.DS_Store
+# pnpm
+node_modules/*
+*/node_modules/*
+node_modules
+
+# forc & cargo
+*/Cargo.lock
+/target/
+debug/
+out/
+
+# pnpm
+*/pnpm-lock.yaml
+
+# editor
+.swp
+
+# mac
+.DS_STORE
+
+# forc & cargo
+.Cargo.lock
+.Forc.lock
+*/Cargo.lock
+*/.Forc.lock
+
+# env
+.env
+.env.test
